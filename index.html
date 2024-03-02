@@ -1,34 +1,40 @@
 <!DOCTYPE html>
+<html lang="en">
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bluejedi's website</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-    </style>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 引入样式表 -->
 </head>
 <body>
-    <div class="container">
-        <h1>welcome to my channel!</h1>
-        <p>Below is some information.</p>
-    </div>
-    <script>
-        // 这里可以添加JavaScript代码
-    </script>
+    <header>
+        <h1>My Blog</h1> <!-- 博客标题 -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- 链接到首页 -->
+                <li><a href="about.html">About</a></li> <!-- 链接到关于页面 -->
+                <li><a href="contact.html">Contact</a></li> <!-- 链接到联系页面 -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Blog Post Title</h2> <!-- 博客文章标题 -->
+            <p>Published on March 1st, 2022</p> <!-- 发布日期 -->
+    
+            <p>This is the content of my blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl a tempor blandit, lectus enim aliquam ligula, quis ultrices ipsum est ut erat.</p>
+    
+            <p>Integer quis purus vitae lorem aliquam mollis. Nam vulputate purus non orci feugiat venenatis. Proin in diam eget nisl convallis gravida at nec mauris. In sed velit id lacus gravida aliquam.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- 引入脚本文件 -->
 </body>
 </html>
+
